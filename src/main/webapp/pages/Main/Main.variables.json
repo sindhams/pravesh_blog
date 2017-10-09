@@ -1,1 +1,25 @@
-{ }
+{
+  "DateTimeServiceSampleJavaOperation" : {
+    "_id" : "wm-DateTimeServiceSampleJavaOperation-wm.ServiceVariable-1507546862841",
+    "name" : "DateTimeServiceSampleJavaOperation",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ ],
+    "type" : "string",
+    "service" : "DateTimeService",
+    "operation" : "sampleJavaOperation",
+    "operationId" : "DateTimeController_sampleJavaOperation",
+    "operationType" : "get",
+    "serviceType" : "JavaService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "maxResults" : 20,
+    "startUpdate" : true,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "isDefault" : true,
+    "controller" : "DateTime"
+  }
+}
